@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: lightslategray;
+}
+
+#loginBtn {
+  background-color: rgb(93, 185, 216);
+  color: whitesmoke;
+  border: solid black 1px;
+}
+
+#loginBtn:hover {
+  background-color: rgb(9, 94, 122);
+}
+
+#login {
+  background-color: lightslategray;
+}
+
+#createAccount {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  cursor: pointer;
+}
+
+#createAccount:hover {
+  color: rgb(43, 54, 65);
 }
