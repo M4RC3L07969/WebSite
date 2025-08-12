@@ -25,7 +25,7 @@ function Login() {
   return (
     <div className="Login mt-5 d-flex justify-content-center align-items-center" style={{ minHeight: "80vh" }}>
       <div id="login">
-        <form className="p-4 border rounded" noValidate>
+        <form className="p-4 border rounded" noValidate onSubmit={handleSubmit}>
 
           <div className="mb-3 row">
             <label htmlFor="username" className="col-sm-3 col-form-label">Username:</label>
@@ -43,7 +43,7 @@ function Login() {
 
           <div className="row">
             <div className="col text-center">
-              <button className="rounded btn btn-primary" onClick={handleSubmit} id="loginBtn" type="submit">
+              <button className="rounded btn btn-primary" id="loginBtn" type="submit">
                 Login
               </button>
             </div>
