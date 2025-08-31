@@ -1,0 +1,68 @@
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 1rem;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+#sideBar {
+    border: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#pesquisa {
+    align-items: center;  
+    justify-content: center;
+}
+
+#pesquisa-input {
+    width: 300px;
+    height: 40px;
+    resize: none;
+    line-height: 30px;
+}
+
+#pesquisa-btn {
+  background-color: rgb(93, 185, 216);
+  color: whitesmoke;
+  border: solid black 1px;
+  height: 40px;
+}
+
+#pesquisa-btn:hover {
+  background-color: rgb(9, 94, 122);
+}
+
+#user-btn {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    transition: all 0.2s ease;
+    font-size: 2rem;
+    transition: all 0.2s ease;
+    font-size: 2rem;
+}
+
+#user-btn:hover {
+    background-color: #e9ecef46;
+}
+
+#content {
+  padding-top: 60px;
+}
